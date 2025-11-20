@@ -9,14 +9,14 @@ const Contact = () => {
       <form action={handleSubmit}>
         <div>
           <label htmlFor="name">Name</label>
-          <input type="text" className='border border-2 border-black m-2' name="name" id="name" />
+          <input type="text" className='border-2 border-black m-2' name="name" id="name" />
         </div>
         <div>
           <label htmlFor="password">Password</label>
-          <input  type="password" className='border border-2 border-black m-2' name="password" id="password" />
+          <input  type="password" className='border-2 border-black m-2' name="password" id="password" />
         </div>
         <div>
-          <button className='border border-2 border-black p-2'>Submit</button>
+          <button className='border-2 border-black p-2'>Submit</button>
         </div>
       </form>
     </div>
